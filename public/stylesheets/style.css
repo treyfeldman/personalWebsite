@@ -1,0 +1,29 @@
+body {
+  background-color: #393635;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: "Josefin Slab", Helvectica, sans-serif;
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.gradient_line {
+  margin: 10px 0;
+  height: 1.5px;
+  background: #f2f2f2;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#f2f2f2), to(#393635));
+}
+
+a {
+  color: #f2f2f2;
+  text-decoration:none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a:hover {
+  text-decoration:underline;
+}
