@@ -1,8 +1,14 @@
 body {
+  font-family: 'Dosis', sans-serif;
   background-color: #393635;
   color: #f2f2f2;
   text-align: center;
-  font-family: "Josefin Slab", Helvectica, sans-serif;
+}
+
+#treyfeldman {
+  font-family: 'Dosis', sans-serif;
+  font-size: 45px;
+
 }
 
 #page-wrap {
