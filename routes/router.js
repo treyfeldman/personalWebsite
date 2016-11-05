@@ -27,4 +27,14 @@ router.get('/resume', function(req, res) {
     res.render('resume', {});
 });
 
+// GET photography page
+router.get('/photography', function(req, res) {
+    res.render('photography', {});
+});
+
+// GET contact page
+router.get('/contact', function(req, res) {
+    res.render('contact', {});
+});
+
 module.exports = router;
