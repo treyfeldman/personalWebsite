@@ -1,5 +1,12 @@
-$(document).ready(function(){
-  $("p").click(function(){
-      $("p").hide();
-  });
-});
+$(window).ready(function() {
+    $(function() {
+        $(window).scroll(function() {
+            if($(this).scrollTop() >= 150) {
+                $('link-bar').addClass('stick');
+            }
+            else {
+                $('link-bar').removeClass('stick');
+            }
+        });
+    });
+}
