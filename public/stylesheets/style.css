@@ -37,3 +37,13 @@ a:hover {
 .instagram-media{
   margin: 15px auto !important;
 }
+
+.link-bar {
+
+}
+
+.link-bar.stick {
+  position: fixed;
+  top: 0;
+  background-color:pink;
+}
