@@ -1,19 +1,45 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Dosis', sans-serif;
   background-color: #393635;
   color: #f2f2f2;
   text-align: center;
+  font-size:50px;
 }
 
-#treyfeldman {
-  font-family: 'Dosis', sans-serif;
-  font-size: 45px;
+.site-header {
+  font-size:50px;
+}
 
+.site-header h1 {
+  font-size:1em;
+}
+
+.site-header h2 {
+  font-size:.4em;
+}
+
+.link-bar a {
+  font-size:.4em;
+}
+
+.link-bar h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size:.5em;
 }
 
 #page-wrap {
-  width: 800px;
+  max-width: 686px;
   margin: 0 auto;
+}
+
+.treyfeldman {
+  font-size:50px;
 }
 
 .gradient_line {
@@ -46,4 +72,69 @@ a:hover {
   position: fixed;
   top: 0;
   background-color:pink;
+}
+
+#resume {
+  display:block;
+  font-size:20px;
+
+
+}
+
+strong.big-bold {
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+section {
+  text-align:left;
+
+}
+
+.category {
+
+}
+
+.section-title {
+  float:left;
+  width: 200px;
+  font-size:2em;
+  padding-left:16px;
+}
+
+.section-title h1 {
+  font-size:2rem;
+  color:orange;
+}
+
+.section-subtitle {
+  margin-left:200px;
+  vertical-align:top;
+}
+
+.section-begin {
+  padding-top:50px;
+}
+
+.section-subtitle h1 {
+  font-size:1.5rem;
+}
+
+.section-content {
+  margin-left:200px;
+  position:relative;
+  margin-top:-15px;
+  text-align:justify;
+}
+
+.section-content p {
+  font-size:1rem;
+  padding-left: 14px;
+}
+
+.dates{
+  position: relative;
+  padding-left:160px;
+  font-size: .6em;
+  font-style: italic;
 }
