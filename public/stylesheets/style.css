@@ -9,7 +9,7 @@ body {
   background-color: #393635;
   color: #f2f2f2;
   text-align: center;
-  font-size:50px;
+  font-size:20px;
 }
 
 .site-header {
@@ -40,7 +40,7 @@ body {
 }
 
 .treyfeldman {
-  font-size:50px;
+  font-size:2.5em;
 }
 
 .gradient_line {
@@ -78,7 +78,6 @@ a:hover {
 
 .index p {
   text-align: center;
-  font-size:.4em;
 }
 
 #resume {
