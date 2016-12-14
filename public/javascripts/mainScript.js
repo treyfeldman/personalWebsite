@@ -1,5 +1,4 @@
 $(window).ready(function() {
-	
 	$("link-bar").scroll(function() {
 		console.log("hey");
 		if($(this).scrollTop() >= 150) {
