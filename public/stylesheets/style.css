@@ -17,10 +17,6 @@ body {
   padding-bottom:10px;
 }
 
-.site-header h1 {
-  font-size:1em;
-}
-
 .site-header h2 {
   font-size:.4em;
 }
@@ -34,13 +30,23 @@ body {
   font-size:.5em;
 }
 
+.mini-trey-logo {
+  position:fixed;
+  font-size:.4em;
+  color:orange;
+  top:0;
+  opacity:0;
+}
+
 #page-wrap {
+  height:80px;
   max-width: 686px;
   margin: 0 auto;
 }
 
 .treyfeldman {
-  font-size:1.2em;
+  height:80px;
+  font-size:.7em;
   color:orange;
 }
 
@@ -67,17 +73,22 @@ a:hover {
 }
 
 .link-bar {
-  position: relative;
-  margin-top: -30px;
-  background: #393635;;
+  height:73px;
+  width:688px;
+  background-color: #393635;
 }
 
 .stick {
   position: fixed;
-  width:686px;
-  top: 19px;
+  width:688px;
+  top:-13px;
   margin-left:auto;
   z-index:100;
+}
+
+.stick-content {
+  position:relative;
+  top:75px;
 }
 
 .index p {
@@ -87,7 +98,6 @@ a:hover {
 #resume {
   display:block;
   position:relative;
-
   font-size:20px;
 }
 
