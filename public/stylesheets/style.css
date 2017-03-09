@@ -168,3 +168,10 @@ section {
   height:74px;
   width:178px;
 }
+
+.download-box {
+  position:fixed;
+  bottom:25px;
+  right:25px;
+  border: 5px white;
+}
